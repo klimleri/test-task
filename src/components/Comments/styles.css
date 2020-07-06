@@ -1,0 +1,28 @@
+.comment__form {
+    display: flex;
+    margin-top: 20px;
+}
+
+.comment__input {
+    height: 60px;
+}
+
+.comment__area {
+    flex-grow: 1;
+    margin: 0 10px;
+    font-family: inherit;
+}
+
+.input[type="color"] {
+    padding: 5px;
+    min-width: 70px;
+}
+
+.btn__comment {
+    color: #fff;
+    background-color: #007bff;
+}
+
+.btn__comment:hover {
+    background-color: #0069d9;
+}

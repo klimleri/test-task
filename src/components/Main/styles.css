@@ -1,0 +1,29 @@
+.main {
+    flex-grow: 1;
+}
+
+.inner {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+@media screen and (max-width: 1260px) {
+    .inner {
+        padding: 40px 20px;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .inner {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .inner {
+        padding: 20px;
+    }
+}

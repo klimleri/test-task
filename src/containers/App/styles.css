@@ -1,0 +1,5 @@
+@media screen and (min-width: 860px) {
+    .App {
+        display: flex;
+    }
+}
